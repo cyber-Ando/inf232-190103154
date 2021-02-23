@@ -17,14 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
+Route::get('/test10', function () {
     return view('welcome');
 });
 
-Route::get('/test2', function () {
+Route::get('/test20', function () {
     return view('info');
 });
 
-Route::get('/test3', function () {
+Route::get('/test30', function () {
     return "this is test3";
 });
